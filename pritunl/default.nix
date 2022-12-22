@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }: 
+{ pkgs ? import <nixpkgs> { } }:
 with pkgs;
 buildGoModule rec {
   pname = "pritunl-client-service";

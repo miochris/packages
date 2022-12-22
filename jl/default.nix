@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }: {
+{ pkgs ? import <nixpkgs> { } }: {
   jl = pkgs.buildGoModule rec {
     pname = "jl";
     version = "1.4.0";
